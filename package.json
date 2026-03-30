@@ -12,6 +12,8 @@
     "dev:all": "concurrently \"npm run dev\" \"npm run server\""
   },
   "dependencies": {
+    "@noble/ed25519": "^3.0.1",
+    "@noble/hashes": "^2.0.1",
     "@uiw/react-markdown-preview": "^5.2.0",
     "highlight.js": "^11.11.1",
     "react": "^19.2.4",
